@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlatformerControllerRB : Monobehaivour
 {
 	[SerializeField]
-	private float movementVelocity;
+	private float movementVelocity = 5f;
 
 	private Rigidbody2D body2D;
 
