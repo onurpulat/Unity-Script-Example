@@ -19,6 +19,11 @@ public class PlatformerControllerRB : Monobehaivour
 		CheckInputs();
 	}
 	
+	private void FixedUpdate()
+	{
+		ApplyMovement();
+	}
+	
 	private void CheckInputs()
 	{
 		movementInputDirection = Input.GetAxisRaw("Horizontal");
